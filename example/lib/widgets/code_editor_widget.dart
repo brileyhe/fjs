@@ -36,7 +36,7 @@ class _CodeEditorWidgetState extends State<CodeEditorWidget> {
         color: isDark ? Colors.grey.shade900 : Colors.grey.shade100,
         borderRadius: BorderRadius.circular(12),
         border: Border.all(
-          color: theme.colorScheme.outline.withValues(alpha: 0.3),
+          color: theme.colorScheme.outline.withOpacity(0.3),
         ),
       ),
       child: Column(
@@ -45,7 +45,7 @@ class _CodeEditorWidgetState extends State<CodeEditorWidget> {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             decoration: BoxDecoration(
-              color: theme.colorScheme.surfaceContainerHighest,
+              color: theme.colorScheme.surfaceVariant,
               borderRadius:
                   const BorderRadius.vertical(top: Radius.circular(11)),
             ),
@@ -130,7 +130,7 @@ class _CodeEditorWidgetState extends State<CodeEditorWidget> {
                 hintText: widget.hintText,
                 hintStyle: TextStyle(
                   color:
-                      theme.colorScheme.onSurfaceVariant.withValues(alpha: 0.5),
+                      theme.colorScheme.onSurfaceVariant.withOpacity(0.5),
                 ),
               ),
             ),
@@ -169,14 +169,14 @@ class ResultDisplayWidget extends StatelessWidget {
             ? Colors.red.shade50
             : hasContent
                 ? Colors.green.shade50
-                : theme.colorScheme.surfaceContainerHighest,
+                : theme.colorScheme.surfaceVariant,
         borderRadius: BorderRadius.circular(12),
         border: Border.all(
           color: hasError
               ? Colors.red.shade200
               : hasContent
                   ? Colors.green.shade200
-                  : theme.colorScheme.outline.withValues(alpha: 0.3),
+                  : theme.colorScheme.outline.withOpacity(0.3),
         ),
       ),
       child: Column(
@@ -189,7 +189,7 @@ class ResultDisplayWidget extends StatelessWidget {
                   ? Colors.red.shade100
                   : hasContent
                       ? Colors.green.shade100
-                      : theme.colorScheme.surfaceContainerHighest,
+                      : theme.colorScheme.surfaceVariant,
               borderRadius:
                   const BorderRadius.vertical(top: Radius.circular(11)),
             ),
@@ -268,7 +268,7 @@ class ResultDisplayWidget extends StatelessWidget {
                       'Result will appear here...',
                       style: TextStyle(
                         color: theme.colorScheme.onSurfaceVariant
-                            .withValues(alpha: 0.5),
+                            .withOpacity(0.5),
                         fontStyle: FontStyle.italic,
                       ),
                     ),

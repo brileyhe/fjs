@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd example && flutter build apk --debug\"}",
+  "error": "Exit code 1\n\nRunning Gradle task 'assembleDebug'...                          \nlib/app/app.dart:27:29: Error: Undefined name 'lightTheme'.\n            theme: AppTheme.lightTheme,\n                            ^^^^^^^^^^\nlib/app/app.dart:28:33: Error: Undefined name 'darkTheme'.\n            darkTheme: AppTheme.darkTheme,\n                                ^^^^^^^^^\nTarget kernel_snapshot failed: Exception\n\n\nFAILURE: Build failed with an exception.\n\n* What went wrong:\nExecution failed for task ':app:com...",
+  "timestamp": "2026-03-12T07:41:17.127Z",
+  "retry_count": 1
+}

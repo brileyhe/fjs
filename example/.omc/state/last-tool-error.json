@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd .. && flutter_rust_bridge_codegen generate\"}",
+  "error": "Exit code 1\nError: Could not parse flutter_rust_bridge.yaml\n\nCaused by:\n    unknown field `enable_lifetime`, expected one of `base_dir`, `rust_input`, `dart_output`, `c_output`, `duplicated_c_output`, `rust_root`, `rust_output`, `dart_entrypoint_class_name`, `dart_format_line_length`, `dart_preamble`, `dart_enums_style`, `add_mod_to_lib`, `llvm_path`, `llvm_compiler_opts`, `dart_root`, `build_runner`, `extra_headers`, `web`, `deps_check`, `dart3`, `full_dep`, `local`, `default_external_library_l...",
+  "timestamp": "2026-03-12T06:27:27.071Z",
+  "retry_count": 2
+}

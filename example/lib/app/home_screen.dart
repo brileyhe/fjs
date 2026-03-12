@@ -411,7 +411,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         color: Theme.of(context)
                             .colorScheme
                             .onPrimary
-                            .withValues(alpha: 0.8),
+                            .withOpacity(0.8),
                       ),
                 ),
               ],

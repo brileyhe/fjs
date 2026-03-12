@@ -222,7 +222,7 @@ class ApiOverviewScreen extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: api.color.withValues(alpha: 0.1),
+                      color: api.color.withOpacity(0.1),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Icon(api.icon, color: api.color),
@@ -265,7 +265,7 @@ class ApiOverviewScreen extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(
                               horizontal: 8, vertical: 4),
                           decoration: BoxDecoration(
-                            color: theme.colorScheme.surfaceContainerHighest,
+                            color: theme.colorScheme.surfaceVariant,
                             borderRadius: BorderRadius.circular(4),
                           ),
                           child: Text(
@@ -288,7 +288,7 @@ class ApiOverviewScreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: theme.colorScheme.surfaceContainerHighest,
+        color: theme.colorScheme.surfaceVariant,
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(

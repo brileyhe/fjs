@@ -1,0 +1,213 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1773292516732,
+  "projectRoot": "/Users/Briley/Documents/Project/MuFong/workflow/project/lxm/fjs",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "lib"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "android": {
+      "path": "android",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1773292516610,
+      "keyFiles": [
+        "build.gradle",
+        "settings.gradle"
+      ]
+    },
+    "cargokit": {
+      "path": "cargokit",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1773292516610,
+      "keyFiles": [
+        "LICENSE",
+        "README",
+        "build_pod.sh",
+        "run_build_tool.cmd",
+        "run_build_tool.sh"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 0,
+      "lastAccessed": 1773292516610,
+      "keyFiles": []
+    },
+    "example": {
+      "path": "example",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1773292516610,
+      "keyFiles": [
+        "analysis_options.yaml",
+        "pubspec.lock",
+        "pubspec.yaml"
+      ]
+    },
+    "ios": {
+      "path": "ios",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1773292516611,
+      "keyFiles": [
+        "fjs.podspec"
+      ]
+    },
+    "lib": {
+      "path": "lib",
+      "purpose": "Library code",
+      "fileCount": 1,
+      "lastAccessed": 1773292516611,
+      "keyFiles": [
+        "fjs.dart"
+      ]
+    },
+    "libfjs": {
+      "path": "libfjs",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1773292516611,
+      "keyFiles": [
+        "Cargo.lock",
+        "Cargo.toml",
+        "cargokit.yaml"
+      ]
+    },
+    "linux": {
+      "path": "linux",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1773292516611,
+      "keyFiles": [
+        "CMakeLists.txt"
+      ]
+    },
+    "logs": {
+      "path": "logs",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1773292516611,
+      "keyFiles": [
+        "2026-03-11.log"
+      ]
+    },
+    "macos": {
+      "path": "macos",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1773292516611,
+      "keyFiles": [
+        "fjs.podspec"
+      ]
+    },
+    "test_driver": {
+      "path": "test_driver",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1773292516611,
+      "keyFiles": [
+        "integration_test.dart"
+      ]
+    },
+    "windows": {
+      "path": "windows",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1773292516612,
+      "keyFiles": [
+        "CMakeLists.txt"
+      ]
+    },
+    "android/src": {
+      "path": "android/src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1773292516612,
+      "keyFiles": []
+    },
+    "example/assets": {
+      "path": "example/assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1773292516612,
+      "keyFiles": []
+    },
+    "example/build": {
+      "path": "example/build",
+      "purpose": "Build output",
+      "fileCount": 0,
+      "lastAccessed": 1773292516612,
+      "keyFiles": []
+    },
+    "lib/src": {
+      "path": "lib/src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1773292516612,
+      "keyFiles": []
+    },
+    "libfjs/src": {
+      "path": "libfjs/src",
+      "purpose": "Source code",
+      "fileCount": 2,
+      "lastAccessed": 1773292516612,
+      "keyFiles": [
+        "frb_generated.rs",
+        "lib.rs"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "example/pubspec.yaml",
+      "accessCount": 3,
+      "lastAccessed": 1773298866422,
+      "type": "file"
+    },
+    {
+      "path": "pubspec.yaml",
+      "accessCount": 2,
+      "lastAccessed": 1773296654837,
+      "type": "file"
+    },
+    {
+      "path": "example/lib/app/app.dart",
+      "accessCount": 1,
+      "lastAccessed": 1773300816299,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

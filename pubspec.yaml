@@ -45,3 +45,12 @@ flutter:
         ffiPlugin: true
       windows:
         ffiPlugin: true
+
+dependency_overrides:
+  flutter_rust_bridge:
+    path: ./flutter_rust_bridge_patched
+  freezed_annotation: ^2.4.1
+  freezed: ^2.4.0
+  ffigen: ^10.0.0
+  build_runner: ^2.4.9
+  flutter_lints: ^3.0.0

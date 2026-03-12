@@ -194,7 +194,7 @@ class _PlaygroundScreenState extends State<PlaygroundScreen> {
                               decoration: BoxDecoration(
                                 color: Theme.of(context)
                                     .colorScheme
-                                    .surfaceContainerHighest,
+                                    .surfaceVariant,
                                 borderRadius: BorderRadius.circular(20),
                               ),
                               child: IconButton.filled(
@@ -225,7 +225,7 @@ class _PlaygroundScreenState extends State<PlaygroundScreen> {
                           decoration: BoxDecoration(
                             color: Theme.of(context)
                                 .colorScheme
-                                .surfaceContainerHighest,
+                                .surfaceVariant,
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: TextField(
@@ -349,7 +349,7 @@ class _PlaygroundScreenState extends State<PlaygroundScreen> {
                                     ? Colors.green.shade100
                                     : Theme.of(context)
                                         .colorScheme
-                                        .surfaceContainerHighest,
+                                        .surfaceVariant,
                                 borderRadius: BorderRadius.circular(20),
                                 border: Border.all(
                                   color: _copiedToClipboard
