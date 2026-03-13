@@ -159,9 +159,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: android-${{ matrix.arch }}
-          path: |
-            ${{ env.EXAMPLE_DIR }}/build/app/outputs/flutter-apk/${{ env.PROJECT_SLUG }}-android-${{ matrix.arch }}.apk
-            ${{ env.EXAMPLE_DIR }}/build/app/outputs/flutter-apk/${{ env.PROJECT_SLUG }}-android-universal.apk
+          path:
+            - ${{ env.EXAMPLE_DIR }}/build/app/outputs/flutter-apk/${{ env.PROJECT_SLUG }}-android-${{ matrix.arch }}.apk
+            - ${{ env.EXAMPLE_DIR }}/build/app/outputs/flutter-apk/${{ env.PROJECT_SLUG }}-android-universal.apk
           retention-days: 30
           if-no-files-found: ignore
 
@@ -211,9 +211,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ios
-          path: |
-            ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-ios.zip
-            ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-ios.ipa
+          path:
+            - ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-ios.zip
+            - ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-ios.ipa
           retention-days: 30
 
   #####################################
@@ -282,9 +282,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: windows
-          path: |
-            ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-windows.zip
-            ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-windows-setup.exe
+          path:
+            - ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-windows.zip
+            - ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-windows-setup.exe
           retention-days: 30
           if-no-files-found: ignore
 
@@ -373,9 +373,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: macos
-          path: |
-            ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-macos.zip
-            ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-macos.dmg
+          path:
+            - ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-macos.zip
+            - ${{ env.EXAMPLE_DIR }}/${{ env.PROJECT_SLUG }}-macos.dmg
           retention-days: 30
 
   #####################################
